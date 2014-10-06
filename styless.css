@@ -1,0 +1,193 @@
+/* Sass Document */
+/* line 11, styless.scss */
+body {
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: #ededed;
+}
+
+/* line 18, styless.scss */
+header .logo {
+  text-align: center;
+  font-size: 58px;
+  margin-bottom: 26px;
+}
+/* line 24, styless.scss */
+header .top-menu navbar {
+  border-radius: 0;
+}
+/* line 28, styless.scss */
+header .top-menu .navbar-toggle {
+  float: left;
+  margin-left: 15px;
+}
+/* line 32, styless.scss */
+header .top-menu .col-sm-1 {
+  width: 14.285714285714285714285714285714%;
+}
+/* line 35, styless.scss */
+header .top-menu .navbar-default {
+  background-color: black;
+}
+/* line 38, styless.scss */
+header .top-menu .navbar-default .navbar-toggle {
+  border-color: #ededed;
+  border: none;
+}
+/* line 42, styless.scss */
+header .top-menu .navbar-default .navbar-toggle .icon-bar {
+  background-color: white;
+}
+/* line 46, styless.scss */
+header .top-menu .navbar-default .navbar-collapse, header .top-menu .navbar-default .navbar-form {
+  background-color: black;
+}
+/* line 49, styless.scss */
+header .top-menu .navbar-default .navbar-toggle:hover, header .top-menu .navbar-default .navbar-toggle:focus {
+  background-color: black;
+}
+/* line 52, styless.scss */
+header .top-menu a {
+  color: white;
+  font-size: 12px;
+}
+/* line 56, styless.scss */
+header .top-menu .dropdown-menu {
+  background-color: black;
+  margin-top: 5%;
+}
+/* line 60, styless.scss */
+header .top-menu .dropdown-menu > li > a {
+  background-color: black;
+}
+
+/* line 67, styless.scss */
+article .news {
+  padding: 16px;
+  background-color: white;
+  margin-bottom: 19px;
+}
+/* line 71, styless.scss */
+article .news img {
+  margin: 0 auto;
+}
+/* line 74, styless.scss */
+article .news h4 {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+/* line 79, styless.scss */
+article .information {
+  background-color: white;
+  margin-bottom: 19px;
+  padding: 16px;
+}
+/* line 85, styless.scss */
+article .information img {
+  float: left;
+  margin-right: 24px;
+  margin-bottom: 24px;
+}
+/* line 90, styless.scss */
+article .information h4 {
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+/* line 94, styless.scss */
+article .information a {
+  background-color: #df0015;
+  color: white;
+  padding: 3%;
+  margin-bottom: 40px;
+  box-shadow: #DEDEDE 4px;
+}
+
+/* line 106, styless.scss */
+footer .lower-menu a {
+  color: white;
+}
+/* line 109, styless.scss */
+footer .lower-menu h4 {
+  margin-bottom: 24px;
+}
+/* line 112, styless.scss */
+footer .lower-menu navbar {
+  rounding: 0;
+}
+/* line 115, styless.scss */
+footer .lower-menu .navbar-default {
+  background-color: black;
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  /* line 124, styless.scss */
+  header .top-menu a {
+    font-size: 12px;
+  }
+  /* line 127, styless.scss */
+  header .top-menu .col-sm-1 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+@media (min-width: 768px) {
+  /* line 137, styless.scss */
+  header .logo {
+    margin-bottom: 24px;
+  }
+
+  /* line 142, styless.scss */
+  article .news {
+    margin-bottom: 24px;
+  }
+  /* line 146, styless.scss */
+  article .news img {
+    margin-bottom: 48px;
+  }
+  /* line 149, styless.scss */
+  article .news h4 {
+    margin-bottom: 24px;
+  }
+  /* line 152, styless.scss */
+  article .news p {
+    margin-top: 24px;
+  }
+  /* line 156, styless.scss */
+  article .information {
+    margin-bottom: 30px;
+  }
+  /* line 159, styless.scss */
+  article .information h4 {
+    margin-bottom: 24px;
+  }
+  /* line 162, styless.scss */
+  article .information img {
+    float: none;
+    margin-bottom: 24px;
+  }
+  /* line 166, styless.scss */
+  article .information p {
+    margin-bottom: 24px;
+  }
+
+  /* line 171, styless.scss */
+  footer .lower-menu h4 {
+    margin-bottom: 0px;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 176, styless.scss */
+  body {
+    padding-left: 200px;
+    padding-right: 200px;
+  }
+
+  /* line 182, styless.scss */
+  article .information h4 {
+    margin-bottom: 28px;
+  }
+  /* line 185, styless.scss */
+  article .information img {
+    margin-bottom: 31px;
+  }
+}
